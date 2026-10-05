@@ -137,6 +137,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RimThreshold: 0.7
     - _SHADOWS_SOFT: 1
     - _ShadowScale: 6
     - _Smoothness: 0.5
@@ -153,6 +154,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Highlight: {r: 0.13105196, g: 0.75725967, b: 0.8962264, a: 0}
     - _Midtone: {r: 0.6380973, g: 0.735849, b: 0.32974368, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 0}
     - _Shadow: {r: 1, g: 0.8386049, b: 0.22169808, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

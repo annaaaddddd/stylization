@@ -110,3 +110,16 @@ void ChooseColorWMidtone_float(float3 Highlight, float3 Shadow, float Diffuse, f
         OUT = Shadow;
     }
 }
+
+
+void RimHighlight_float(float3 WorldNormal, float3 ViewDir, float Diffuse, float RimThreshold, out float Rim)
+{
+    float3 N = normalize(WorldNormal);
+    float3 V = normalize(ViewDir);
+
+    float fresnel = 1 - saturate(dot(N, V));
+
+    fresnel = step(RimThreshold, fresnel);
+
+    Rim = fresnel * step(0.01, Diffuse);
+}
