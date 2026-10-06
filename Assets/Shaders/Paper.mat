@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: c845796c745c397458ff105bf9da475a,
+  m_Name: Paper
+  m_Shader: {fileID: -6465566751694194690, guid: e10affa10e0c46858a198963b257c759,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -48,10 +48,13 @@ Material:
     m_Floats:
     - _DepthThreshold: 0.1
     - _NormalThreshold: 0.4
+    - _PaperBlotchScale: 60
+    - _PaperGrainScale: 500
+    - _PaperStrength: 0.2
     - _Thickness: 5
     - _WobbleAmount: 2
     - _WobbleFPS: 8
     - _WobbleScale: 40
     m_Colors:
-    - _OutlineColor: {r: 0.23589353, g: 0.28915986, b: 0.5377358, a: 1}
+    - _OutlineColor: {r: 0.03, g: 0.079999976, b: 0.29999998, a: 1}
   m_BuildTextureStacks: []
