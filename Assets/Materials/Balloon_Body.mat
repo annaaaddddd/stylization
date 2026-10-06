@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Balloon_Body
-  m_Shader: {fileID: -6465566751694194690, guid: eeef0fdb6da41c64d9c4bc5dec3f9926,
+  m_Shader: {fileID: -6465566751694194690, guid: 5cc63fca510b4a85a9c990f181a624af,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

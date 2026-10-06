@@ -53,5 +53,5 @@ Material:
     - _WobbleFPS: 8
     - _WobbleScale: 40
     m_Colors:
-    - _OutlineColor: {r: 0.23589307, g: 0.28915942, b: 0.53773564, a: 1}
+    - _OutlineColor: {r: 0.23589304, g: 0.2891594, b: 0.53773564, a: 1}
   m_BuildTextureStacks: []
