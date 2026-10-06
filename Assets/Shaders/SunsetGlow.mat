@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: c845796c745c397458ff105bf9da475a,
+  m_Name: SunsetGlow
+  m_Shader: {fileID: -6465566751694194690, guid: 190f00517e4a48eb817d958869f0d65b,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -46,12 +46,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _VignetteSize: 0.55
+    - _SkyDistance: 100
+    - _Strength: 0
     - _DepthThreshold: 0.1
     - _NormalThreshold: 0.4
+    - _PaperBlotchScale: 60
+    - _PaperGrainScale: 500
+    - _PaperStrength: 0.2
     - _Thickness: 5
     - _WobbleAmount: 2
     - _WobbleFPS: 8
     - _WobbleScale: 40
     m_Colors:
-    - _OutlineColor: {r: 0.23589307, g: 0.28915942, b: 0.53773564, a: 1}
+    - _TopColor: {r: 1, g: 0.72, b: 0.45, a: 1}
+    - _BottomColor: {r: 0.72, g: 0.5, b: 0.85, a: 1}
+    - _VignetteColor: {r: 0.82, g: 0.68, b: 0.85, a: 1}
+    - _OutlineColor: {r: 0.03, g: 0.079999976, b: 0.29999998, a: 1}
   m_BuildTextureStacks: []
