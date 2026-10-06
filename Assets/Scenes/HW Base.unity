@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 218894649}
   - component: {fileID: 218894651}
   - component: {fileID: 218894650}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blush_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b01fc6866e94f04e9c827387f4bf373, type: 2}
+  - {fileID: 2100000, guid: ee75a15cf5ba44caadaf55a700d2d1bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1724,7 +1724,7 @@ GameObject:
   - component: {fileID: 1262789016}
   - component: {fileID: 1262789018}
   - component: {fileID: 1262789017}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blush_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1849,7 +1849,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b01fc6866e94f04e9c827387f4bf373, type: 2}
+  - {fileID: 2100000, guid: ee75a15cf5ba44caadaf55a700d2d1bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1890,7 +1890,7 @@ GameObject:
   - component: {fileID: 1302077192}
   - component: {fileID: 1302077194}
   - component: {fileID: 1302077193}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
