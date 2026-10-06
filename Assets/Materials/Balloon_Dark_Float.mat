@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Balloon_Body
-  m_Shader: {fileID: -6465566751694194690, guid: eeef0fdb6da41c64d9c4bc5dec3f9926,
+  m_Name: Balloon_Dark_Float
+  m_Shader: {fileID: -6465566751694194690, guid: 05139d4d147564742a5dde3ab1072733,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -50,30 +50,30 @@ Material:
     - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
-    - _GlintLength: 0.4
+    - _GlintLength: 0.5
     - _GlintOffset: 0.6
-    - _GlintWidth: 0.25
-    - _HighlightThreshold: 1.1
+    - _GlintWidth: 0.15
+    - _HighlightThreshold: 0.3
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
-    - _MidtoneThreshold: 0.35
+    - _MidtoneThreshold: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RimThreshold: 0.7
     - _SHADOWS_SOFT: 1
     - _ShadowScale: 6
-    - _SpecSize: 0.01
-    - _UseGlint: 1
+    - _SpecSize: 0.05
+    - _UseGlint: 0
     - _UseRim: 0
-    - _UseSpec: 0
+    - _UseSpec: 1
     m_Colors:
-    - _Highlight: {r: 1, g: 1, b: 0.96, a: 1}
-    - _Midtone: {r: 0.9528302, g: 0.9528302, b: 0.86743504, a: 1}
+    - _Highlight: {r: 0.12, g: 0.4, b: 0.65, a: 1}
+    - _Midtone: {r: 0.1, g: 0.35, b: 0.6, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow: {r: 0.8158152, g: 0.9150943, b: 0.86118454, a: 1}
+    - _Shadow: {r: 0.08, g: 0.28, b: 0.5, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
-    - _SpecDir: {r: 5, g: 10, b: -1, a: 0}
+    - _SpecDir: {r: 1, g: 1, b: -1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3013129432487031657
+--- !u!114 &2252929320613762972
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

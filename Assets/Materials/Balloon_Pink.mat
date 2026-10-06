@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Balloon_Pink
-  m_Shader: {fileID: -6465566751694194690, guid: 2ce523f624d8d504aab7b4aa45c5f476,
+  m_Shader: {fileID: -6465566751694194690, guid: eeef0fdb6da41c64d9c4bc5dec3f9926,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -63,6 +63,9 @@ Material:
     - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
+    - _GlintLength: 0.5
+    - _GlintOffset: 0.6
+    - _GlintWidth: 0.15
     - _HighlightThreshold: 0.3
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
     - _MidtoneThreshold: 0.1
@@ -72,6 +75,9 @@ Material:
     - _SHADOWS_SOFT: 1
     - _ShadowScale: 6
     - _SpecSize: 0.05
+    - _UseGlint: 0
+    - _UseRim: 0
+    - _UseSpec: 0
     m_Colors:
     - _Highlight: {r: 1, g: 0.82, b: 0.78, a: 1}
     - _Midtone: {r: 0.98, g: 0.71, b: 0.66, a: 1}

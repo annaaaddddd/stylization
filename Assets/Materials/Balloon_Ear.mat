@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Balloon_Ear
-  m_Shader: {fileID: -6465566751694194690, guid: b4de3d0d1ad10e048a3ea1dfdf3642e1,
+  m_Shader: {fileID: -6465566751694194690, guid: eeef0fdb6da41c64d9c4bc5dec3f9926,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -62,6 +62,9 @@ Material:
     - _SHADOWS_SOFT: 1
     - _ShadowScale: 6
     - _SpecSize: 0.01
+    - _UseGlint: 0
+    - _UseRim: 0
+    - _UseSpec: 1
     m_Colors:
     - _Highlight: {r: 1, g: 1, b: 0.96, a: 1}
     - _Midtone: {r: 0.9528302, g: 0.9528302, b: 0.86743504, a: 1}
